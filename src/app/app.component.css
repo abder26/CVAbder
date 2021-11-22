@@ -1,0 +1,184 @@
+mat-toolbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+}
+mat-toolbar a {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 16px;
+    margin-left: 0.5rem;
+}
+mat-sidenav {
+    width: 200px;
+    color: black;
+    position: fixed;
+    top: 4rem;
+}
+mat-sidenav a{
+    color: black;
+}
+mat-sidenav li{
+    margin-top: 1rem;
+}
+svg {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+mat-sidenav-container {
+    /* background: blueviolet;  */
+    /* margin-left: 250px; */
+    height: calc(100vh);
+}
+#myself {
+    background: url(../assets/header.jpg) no-repeat fixed 100% 100%;
+    width: 100%;
+    height: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    /* padding: 40px; */
+    padding-top: 70px;
+    color: darkcyan;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
+#aboutme h3{
+    color:white;
+    background-color: darkcyan;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#aboutme p{
+    margin-left: 5%;
+    margin-right: 10%;
+    text-align: justify;
+    margin-top: 2%;
+}
+#boxexp {
+    background: rgba(221, 221, 221, 0.63);
+    max-width: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+#experience h3{
+    color:white;
+    background-color: darkcyan;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+#underexp img {
+    width: 60px; 
+ }
+ #underexp h4{
+     margin-top: 3%;
+     color: rosybrown;
+     text-align: center;
+     font-size: 1.5em;
+ }
+ #underexp h6{
+     font-size: 1.5em;
+     margin-left: 10%;
+     color: darkcyan;
+ }
+ #underexp p{
+     margin-left: 10%;
+     margin-right: 10%;
+     text-align: justify;
+ }
+ #skills {
+    scroll-behavior: smooth;
+}
+#skills h3{
+    color:white;
+    background-color: darkcyan;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#boxcomp1, #boxcomp2, #boxcomp3 {
+    background: rgba(221, 221, 221, 0.63);
+    max-width: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#image {
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+#image img {
+    width: 5em;
+}
+#education {
+    scroll-behavior: smooth;
+}
+#education h3{
+    color:white;
+    background-color: darkcyan;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#boxeduc1, #boxeduc2, #boxeduc3 {
+    background: rgba(221, 221, 221, 0.63);
+    max-width: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#education h4{
+    margin-top: 3%;
+    color: rosybrown;
+    text-align: center;
+    font-size: 1.5em;
+}
+#education h5{
+    color: darkcyan;
+    font-size: 1.5em;
+}
+#contact {
+    scroll-behavior: smooth;
+}
+#contact h3{
+    color:white;
+    background-color: darkcyan;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#details {
+    text-align: center;
+    background: url(../assets/footer.jpg) no-repeat fixed 50% 50%;
+    height: 400px;
+}
+#details svg{
+    margin: 10px 10px 10px 10px; 
+    font-size: 4em;
+}
+.network{
+    font-size: 4em;
+    padding: 10px 10px;
+    color: #726659;
+    z-index: -1 !important;
+    border-radius: 50%;
+}
+.network:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+    transition: all 0.3s ease-in-out;
+}
